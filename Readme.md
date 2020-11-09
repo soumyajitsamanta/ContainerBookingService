@@ -4,14 +4,14 @@ This is capability to handle the booking of containers by users.
 The User Story responsible for creation of the service is presented below.
 
 # User Story
-As a Maersk *customer*.
+As a *customer*.
 
-I want to be able to book *containers* with Maersk
+I want to be able to book *containers*.
 
 So that I can deliver cargo to my *customers*
 
 The aim of this story is to develop two microservice endpoints that enable a
-customer to book a container with Maersk. There is no need to consider
+customer to book a container. There is no need to consider
 authentication or authorization mechanisms for this task.
 
 One endpoint will establish if there are enough containers of an appropriate size
