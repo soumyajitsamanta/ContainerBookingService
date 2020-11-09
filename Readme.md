@@ -32,6 +32,7 @@ Step 3: Execute the service.
 # Endpoints
 
 ## Create A Booking In Database
+```
 POST /api/bookings/book HTTP/1.1
 Host: localhost:8080
 Content-Type: application/json
@@ -43,15 +44,18 @@ Content-Type: application/json
     "containerType":"REEFER",
     "containerSize":10
 }
+```
 
 ### Sample Response
-
+```json
 {
     "bookingRef": "957000001"
 }
+```
 
 ## Check If Kind Container Available
 
+```
 POST /api/bookings/check-available HTTP/1.1
 Host: localhost:8080
 Content-Type: application/json
@@ -63,8 +67,11 @@ Content-Type: application/json
     "containerType":"DRY",
     "containerSize":10
 } 
+```
 
 ### Sample Response
+```json
 {
     "available": false
 }
+```
